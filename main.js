@@ -21,7 +21,8 @@ var locationUser = await fetch("https://api.ipgeolocation.io/ipgeo?apiKey=4dd2d3
 var locaDone = await locationUser.json();
 
 // console.log("======================>");
-// console.log(locaDone);
+
+// // console.log(locaDone.city);
 // console.log(locationUser.status);
 // console.log("======================>");
 
@@ -121,6 +122,7 @@ if (apiFinal.current.condition.text=== "Clear"){
     `
 }
 document.getElementById('cityData').innerHTML=cartona
+document.getElementById("cityname").innerHTML+= "Your Location " + `<p class="text-center text-danger d-inline">${locaDone.city}</p>`
 } 
 getapidata()
 

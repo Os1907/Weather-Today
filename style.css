@@ -1,39 +1,10 @@
 *{
     font-family: 'Inter', sans-serif !important;
 }
-body{ 
-  background-color: #0b1121;
-  background-image: url(./image/wallpaper2.png);
-  background-position: center center ;
-  background-size: cover;
-  position: relative;
-}
-.nav p{
-  font-weight: 600;
-  color: #F6F6F6 !important;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-.nav i{
-  font-size: 20px !important;
-  font-weight: bolder !important;
-}
-.my-dark-bg{
-    background-color: #0b1121;
-}
-.my-dark-light{
-    background-color: #b53241;
-}
-.cafe-color{
-    background-color: #EEEEEE;
-
-}
-
-#openBtn{
-  cursor: pointer;
-}
-.btnGrounb{
-  margin-top: -35px;
+body{
+  background-color: #0F172A;
+  background-image: url(./image/download.svg);
+  background-repeat: repeat;
 }
 
   /*--------------------------------------------------------------
@@ -116,17 +87,17 @@ header{
     height: 10%;
 }
 h1{
-  font-size:120px;
+  font-size:70px;
     font-weight:700;
     color:#ffffff;
 }
 
 .main-color{
-  background-image: linear-gradient(90deg, #0b112100 0%, #872869 100%);
+  background-image: linear-gradient(90deg, #0b112100 0%, #dc3545 100%);
 }
 
 .gradient-myBg{
-  background-image: linear-gradient(180deg, #0b112100 46%, #872869 100%);
+  background-image: linear-gradient(180deg, #0b112100 46%, #dc3545 100%);
   color: white !important;
   
 }
