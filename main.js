@@ -130,9 +130,9 @@ getapidata()
 // ======> Search Added to Html =================
 
 
-userSearch.addEventListener("keyup", ()=>{
+userSearch.addEventListener("input", ()=>{
     changetext(userSearch.value)
-    // console.log(userSearch.value)
+    console.log(userSearch.value)
 } );
 async function changetext(city){
 var apiLink =  await fetch(`https:api.weatherapi.com/v1/forecast.json?key=5f606d13563440c3835153320233012&q=${city}&days=7`);
