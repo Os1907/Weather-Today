@@ -184,7 +184,7 @@ cartona+=`
         <div class=" col-md-12 col-lg-6 d-flex align-items-center animation-scale ">
         <div  class="row flex-column gradient-myBg  rounded-5 ">
         <div id="cityDetials"  class="x1 col-md-12  d-flex align-items-center flex-column justify-content-start p-3 rounded-pill ">
-        <h5> ${daysOftoday} </h5>
+        <h5> ${daysOftoday}   </h5>
         <h1>${apiFinal.location.name}</h1>
         <span >${apiFinal.current.condition.text}</span>
         </div>
