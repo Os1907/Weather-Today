@@ -1,0 +1,242 @@
+*{
+    font-family: 'Inter', sans-serif !important;
+}
+body{ 
+  background-color: #0b1121;
+  background-image: url(./image/wallpaper2.png);
+  background-position: center center ;
+  background-size: cover;
+  position: relative;
+}
+.nav p{
+  font-weight: 600;
+  color: #F6F6F6 !important;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.nav i{
+  font-size: 20px !important;
+  font-weight: bolder !important;
+}
+.my-dark-bg{
+    background-color: #0b1121;
+}
+.my-dark-light{
+    background-color: #b53241;
+}
+.cafe-color{
+    background-color: #EEEEEE;
+
+}
+
+#openBtn{
+  cursor: pointer;
+}
+.btnGrounb{
+  margin-top: -35px;
+}
+
+  /*--------------------------------------------------------------
+  # Weather Card
+  --------------------------------------------------------------*/
+  .weather__card {
+    padding: 20px 0px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color:#ffffff;
+    font-weight: 600;
+  }
+   .weather__card h2 {
+    font-size:100px;
+    font-weight:700;
+    color:#ffffff;
+  }
+  .weather__card h3 {
+    font-size: 75px;
+    font-weight: 900;
+    color:#fefefe;
+  }
+  .weather__card h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color:#ffffff ;
+  }  
+ 
+  .weather__card .weather__description {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px 13px;
+    border:0;
+    outline: none;
+    color:#7F8487;
+    font-size: .956rem;
+    font-weight: 400;
+  }
+  /*--------------------------------------------------------------
+  # Weather Status
+  --------------------------------------------------------------*/
+  .weather__status img {
+    width: 15%;
+    vertical-align:middle;
+  }
+  .weather__status span {
+    font-weight: 500;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: .9rem;
+    padding-left: .5rem;
+  }
+
+input{
+    background-color: #ffffff !important;
+    border: none !important;
+    color: #334155 !important;
+    font-weight: 700 !important;
+    padding-left: 20px !important;
+    border: #334155 solid 1px !important ;
+   
+}
+input::placeholder{
+  color: #334155 !important;
+  font-weight: 600;
+
+}
+header img{
+    width: 15%;
+    margin-top: 10px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    transform: translatey(25%);
+}
+header{
+    height: 10%;
+}
+h1{
+  font-size:120px;
+    font-weight:700;
+    color:#ffffff;
+}
+
+.main-color{
+  background-image: linear-gradient(90deg, #0b112100 0%, #872869 100%);
+}
+
+.gradient-myBg{
+  background-image: linear-gradient(180deg, #0b112100 46%, #872869 100%);
+  color: white !important;
+  
+}
+
+
+header img{
+  width: 25% !important;
+}
+header i{
+  color: #F6F6F6 !important;
+  font-size: 30px ;
+  margin-left: -20px;
+  margin-bottom: 10px;
+}
+.img-animation {
+  top: 0%;
+  left: -5%;
+}
+.img-animation img {
+  width: 20%;
+  animation:bounce-top 9s infinite alternate-reverse both ;
+  
+}
+
+@keyframes bounce-top{
+0%{transform:translateY(-30px);animation-timing-function:ease-in;opacity:1}
+24%{opacity:1}
+40%{transform:translateY(-35px);animation-timing-function:ease-in}
+65%{transform:translateY(-12px);animation-timing-function:ease-in}
+82%{transform:translateY(-6px);animation-timing-function:ease-in}
+93%{transform:translateY(-15px)   ;animation-timing-function:ease-in}
+25%,55%,75%,87%{transform:translateY(0);animation-timing-function:ease-in}
+100%{transform:translateY(0) ;animation-timing-function:ease-out;opacity:1}
+}
+.my-btn{
+  background-color: #385276 !important;
+  background-color: #872869 !important;
+  
+  border: 0px !important;
+  color: #F6F6F6 !important;
+  transition: all 0.5s;
+  &:hover{
+  background-color: #385276 !important;
+
+  }
+}
+#btnGoub{
+  /* display: none; */
+  width: 100%;
+
+}
+
+@media  (min-width: 620px) and (max-width: 1200px) {
+  .x1{
+    width: 100%;
+  }
+  .x1 h1{
+    font-size: 90px !important;
+  }
+   .degree-pric{
+    justify-content: center !important;
+  }
+  .degreeImage{
+    flex-direction: column !important;
+  }
+  .degreeImage img{
+    width: 80% !important;
+  }
+  .weather__status {
+    width: 100%;
+  }
+  .nextWeather{
+    width: 100% !important;
+  }
+  .lastcards{
+    width: 85% !important;
+  }
+  .img-animation{
+    top: 4%;
+    width: 100% !important;
+  }
+  .img-animation img{
+    width: 25%;
+  }
+  header img{
+    width: 25% !important;
+  }
+  header .logoopen{
+    display: block !important;
+    margin-left: -40px !important;
+  }
+  .img-div{
+    width: 100% !important;
+    justify-content: center !important;
+    transform: translateX(-5%);
+  }
+  #btnGoub{
+    display: none ;
+  }
+  .container{
+    width: 100% !important;
+  }
+}
+
+@media  (min-width: 414px) and (max-width: 896px){
+input{
+  width: 100% !important;
+  padding: 10px !important;
+}
+body{
+  height: auto !important;
+}
+}
